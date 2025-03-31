@@ -1,8 +1,5 @@
 name: Package
-on:
-    push:
-        branches: [master]
-        tags-ignore: [updater]
+on: workflow_dispatch
 permissions: write-all
 
 jobs:
